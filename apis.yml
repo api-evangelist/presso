@@ -1,7 +1,29 @@
 aid: presso
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/presso.png
 name: Presso
-description: Presso is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Presso is a garment-care automation company (operated by parent LaundrySucks.io
+  Inc.) that builds robotic, AI-driven systems for dry cleaning and laundry
+  businesses. Its flagship AirTouch product is a compact, plug-and-play unit that
+  runs on a standard 110V outlet and combines automatic fabric recognition,
+  built-in non-toxic cleaning formulas, and smart temperature control to deliver
+  same-day wash, fold, and dry cleaning under one roof. Presso positions itself
+  around faster, greener, and gentler garment care without compressors, boilers,
+  or skilled labor. It was surfaced as a portfolio company of Uncork Capital and
+  added to the API Evangelist network for enrichment. As of this pass Presso
+  publishes no public API, developer portal, SDK, or machine-readable API
+  surface — it is a hardware/robotics and equipment business, not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/presso/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,51 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Garment Care
+- Laundry
+- Dry Cleaning
+- Robotics
+- Automation
+- Sustainability
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/presso-domain-security.yml
+- type: Website
+  url: https://getpresso.com
+- type: About
+  url: https://getpresso.com/company/#about-us
+- type: Blog
+  url: https://getpresso.com/blog/
+- type: News
+  url: https://getpresso.com/company/#news
+- type: Pricing
+  url: https://shop.getpresso.com/
+- type: Support
+  url: https://getpresso.com/contact-us/
+- type: PrivacyPolicy
+  url: https://getpresso.com/privacy-policy/
+- type: TermsOfService
+  url: https://getpresso.com/purchaseterms/
+- type: Careers
+  url: https://getpresso.com/jobs/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getpresso
+- type: Instagram
+  url: https://www.instagram.com/getpresso/
+- type: Facebook
+  url: https://www.facebook.com/getpresso.co/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
